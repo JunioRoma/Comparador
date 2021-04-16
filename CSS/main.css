@@ -1,0 +1,86 @@
+body
+{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#nvbar
+{
+    background-color: #4682B4;
+}
+
+#nvbar .header_li_text
+{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+#nvbar .fas
+{
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+#nvbar .dropdown-menu
+{
+    background-color: #4682B4;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nvbar .dropdown-menu a
+{
+    color: white;
+}
+
+#listaHd
+{
+    margin-left: 75%;
+}
+
+
+
+#buscador
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#buscador #cuadroTexto
+{
+    width: 100%;
+}
+
+#buscador input
+{
+    height: 100px;
+    width: 620px;
+    text-align: center;
+    border-radius: 120px;
+    border-width: 0px;
+    background-color:white;
+    font-weight: bold;
+}
+
+#buscador #btnBuscar
+{
+    width: 100%;
+}
+
+#buscador button
+{
+    width: 30%;
+    margin: 20px 35% auto 35%;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #4682B4;
+    color: white;
+}
