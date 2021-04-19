@@ -1,6 +1,18 @@
 body{
-    background: url(../img/background.jpg) no-repeat center center fixed;
-    background-size: cover;
+background: linear-gradient(to bottom, white, blue, white);
+
+}
+.divBack{
+  position: fixed;
+    background-image: url(../img/back.jpg);
+    background-repeat:no-repeat;
+    width: 40px;
+    height: 40px;
+    bottom: 5%;
+    right:2%;
+    background-size:100%;
+    background-origin:content-box;
+    display: inline-block;
 }
 
 .main-section{
@@ -45,6 +57,9 @@ body{
 
 .form-group#user-group::before{
     content: "\f007";
+}
+.form-group#email-group::before{
+    content: "\f0e0";
 }
 
 .form-group#contrasena-group::before{
