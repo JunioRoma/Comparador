@@ -6,7 +6,13 @@ body
 }
 
 
-
+.container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: absolute;
+  background-color: red;
+}
 #nvbar
 {
     background-color: #4682B4;
@@ -48,21 +54,22 @@ body
 
 #buscador
 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin-top: 20%;
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+    height: 10%;
 }
 
-#buscador #cuadroTexto
-{
-    width: 100%;
-}
+
 
 #buscador input
 {
-    height: 100px;
-    width: 620px;
+    font-size: 100%;
+    padding: 10%;
+    min-height: 100%;
+    width: 100%;
     text-align: center;
     border-radius: 120px;
     border-width: 0px;
@@ -70,15 +77,18 @@ body
     font-weight: bold;
 }
 
-#buscador #btnBuscar
-{
-    width: 100%;
-}
+
 
 #buscador button
 {
-    width: 30%;
-    margin: 20px 35% auto 35%;
+  font-size: 100%;
+  padding: 2%;
+    width: 40%;
+    height: 20%;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
     border-radius: 20px;
     border-width: 0px;
     background-color: #4682B4;
