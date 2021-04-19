@@ -1,18 +1,20 @@
 body{
-background: linear-gradient(to bottom, white, blue, white);
+/*background: linear-gradient(to bottom, white, blue, white);*/
+background-image: url("../img/login.jpg");
+  background-size: cover;
+
 
 }
-.divBack{
-  position: fixed;
-    background-image: url(../img/back.jpg);
-    background-repeat:no-repeat;
-    width: 40px;
-    height: 40px;
-    bottom: 5%;
-    right:2%;
-    background-size:100%;
-    background-origin:content-box;
-    display: inline-block;
+
+.form-group#backgroup::before{
+    content: "\f122";
+    color: white;
+    margin-left: 70%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+
+
 }
 
 .main-section{
@@ -33,7 +35,7 @@ background: linear-gradient(to bottom, white, blue, white);
 }
 
 .user-img img{
-    width: 100xp;
+    width: 100px;
     height: 100px;
     box-shadow: 0px 0px 3px #848484;
     border-radius: 50%;
